@@ -15,4 +15,6 @@ int main( )
             printf("\t%d",a[i][j]);
         }printf("\n");
     }printf("the sum is =%d",sum);
+
+    return 0 ;
 }
