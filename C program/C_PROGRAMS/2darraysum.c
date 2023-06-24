@@ -1,4 +1,5 @@
 #include<stdio.h>
+// 2 d array
 int main( )
 {
     int a[2][3],i,j,sum=0;
