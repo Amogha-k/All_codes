@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdlib.h": "c",
+        "MY GAME.C": "cpp"
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
+}

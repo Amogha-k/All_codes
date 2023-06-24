@@ -1,0 +1,15 @@
+KEYWORDS IN PHYTHON
+and       del      from    none       True
+as        elif     glabal  nonlocal   try 
+assert    else     if      not        while 
+break     except   import  or         with 
+class     False    in      pass       yield
+continue  finally  is      raise      async
+def       for      lambda  return     await
+
+operators  and operands
++
+-
+**
+*
+/
