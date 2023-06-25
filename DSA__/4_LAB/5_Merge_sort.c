@@ -58,6 +58,7 @@ void merge_sort(int a[], int low, int high)
         merge(a, low, mid, high);
     }
 }
+
 void print_array(int a[], int n)
 {
     for (int i = 0; i < n; i++)
