@@ -11,9 +11,10 @@ of elements).
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
+
 void merge(int a[], int low, int mid, int high)
 {
-    int b[high+1];
+    int b[high+1];// creating the extra array
     int i = low;
     // lai = left array index and rai = right array index
     int lai = low;
