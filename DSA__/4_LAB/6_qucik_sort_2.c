@@ -13,9 +13,9 @@ a graph of the time taken versus n. (n=no of elements).
 
 void swapp(int *a, int *b)
 {
-    int *t = *a;
-    *a = *b;
-    *b = *t;
+    int *t = a;
+    a = b;
+    b = t;
 }
 int partition(int arr[], int start, int end)
 

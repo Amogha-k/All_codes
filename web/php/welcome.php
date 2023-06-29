@@ -7,7 +7,15 @@
 </head>
 <body>
     <?php
-    echo "hello";
+    echo "hello amogha k <br>";
+    $servername="localhost";
+    $username="root";
+    $password="#Avengers12";
+
+    // create a connection
+    $conn =mysqli_connect( $servername,$username,$password); 
+
+    echo" connection was succesfull";
     ?>
 </body>
 </html>
