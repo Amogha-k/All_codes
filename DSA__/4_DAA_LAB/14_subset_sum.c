@@ -38,7 +38,7 @@ int main()
     sum +=w[i];
  if(sum < d)
     {
-        printf("no solution exits\n");
+        printf("No solution exits\n");
           
     }   
     printf("The solution is\n");
