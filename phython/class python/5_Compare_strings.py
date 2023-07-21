@@ -16,12 +16,3 @@ string_list = ["hello", "world", "level", "good", "eye"]
 count = count_strings(string_list)
 print("Number of strings meeting the criteria:", count)
 
-
-# Output:
-# ```
-# Number of strings meeting the criteria: 3
-# ```
-
-# In the example above, the function `count_strings` takes a list of strings as input and iterates over each string in the list. It checks whether the length of the string is 2 or more (`len(string) >= 2`) and if the first character of the string is the same as the last character (`string[0] == string[-1]`). If both conditions are satisfied, the count is incremented.
-
-# Finally, the count is printed as the output. In this example, the output indicates that there are 3 strings in the list that meet the given criteria. Feel free to modify the `string_list` variable to test the code with different sets of strings.

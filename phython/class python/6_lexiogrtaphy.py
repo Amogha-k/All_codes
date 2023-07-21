@@ -16,14 +16,10 @@
 # Certainly! Here's a Python program that accepts a sequence of whitespace-separated words as input, removes duplicate words, and sorts them alphanumerically:
 
 
-def jls_extract_def():
-    # Remove duplicates by converting to a set and back to a list
-    return 
 
 
 def remove_duplicates_and_sort_words(input_string):
     words = input_string.split()  # Split the input string into a list of words
-
     unique_words = list(set(words))  # Remove duplicates by converting to a set and back to a list = jls_extract_def()
     sorted_words = sorted(unique_words)  # Sort the unique words alphanumerically
     return sorted_words
@@ -38,7 +34,6 @@ result = remove_duplicates_and_sort_words(input_sequence)
 # Print the sorted words
 print("Words after removing duplicates and sorting:")
 for word in result:
-
     print(word)
 
 

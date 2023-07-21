@@ -34,7 +34,7 @@ void kruskal(int n, edge e[], int m)
         for (j = 0; j < m - 1; j++)
         {
             if (e[j].cost > e[j + 1].cost)
-            {
+            {  //sorting
                 temp.u = e[j].u;
                 temp.v = e[j].v;
                 temp.cost = e[j].cost;
