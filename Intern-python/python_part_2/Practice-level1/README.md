@@ -1,1 +1,0 @@
-# infyTQ-Python-Practice-level1

@@ -1,1 +1,0 @@
-All the codes of python

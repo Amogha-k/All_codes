@@ -1,4 +1,4 @@
-/*Program:*/
+/*Program: kruskal*/
 
 #include <stdio.h>
 #include <time.h>
@@ -101,7 +101,7 @@ void main()
     kruskal(n, e, m);
     endtime = clock();
     clk = (double)(endtime - starttime) / CLOCKS_PER_SEC;
-    printf("The time taken is %f\n", clk);
+    printf("\nThe time taken is %f\n", clk);
 }
 
 // /* Sample output*/
@@ -125,3 +125,5 @@ void main()
 // The cost of the spanning tree is
 // 16
 // The time taken is 0.655643
+
+
